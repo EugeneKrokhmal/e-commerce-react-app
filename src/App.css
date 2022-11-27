@@ -1,0 +1,43 @@
+body {
+  font-size: 12px;
+}
+
+#root {
+  height: 100vh;
+}
+
+.main-content {
+  padding-top: 112px;
+}
+
+.minicart {
+  cursor: pointer;
+}
+
+.minicart .minicart-icon {
+  position: relative;
+}
+
+.minicart .minicart-icon label {
+  position: absolute;
+  top: 4px;
+  left: -2px;
+  display: grid;
+  place-content: center;
+  width: 10px;
+  height: 10px;
+  font-size: 8px;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.minicart:hover path {
+  stroke: black;
+}
+
+.carousel-item img,
+.product-image {
+  object-fit: cover;
+}
+

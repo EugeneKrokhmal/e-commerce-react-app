@@ -1,0 +1,14 @@
+.full-page-banner {
+    overflow: hidden;
+    height: 150px;
+    margin-bottom: 56px;
+    background-image: url(../../images/giphy.gif);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+    filter: brightness(.5);
+}
+
+.full-page-banner img {
+    object-fit: cover;
+}
